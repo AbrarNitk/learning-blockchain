@@ -73,18 +73,34 @@ rustup target add wasm32-unknown-unknown
 
 ```shell
 ./target/release/node-template --dev
+
+# OR
+
+cargo run --release -- --dev
 ```
 
-
 ## Connect to a Node
-
 
 - Check the predefined Alice Account
 - Open index.html
 - copy and paste the SS58 address from Alice account and then click on Get Balance
 
-## Learn
 
+## Explore the Node
+
+
+Node Template includes
+- peer-to-peer networking
+- simple consensus
+- transaction handling
+- working with accounts, balances, transaction fees and performing admin actions
+- This core set of functions provided through the several defined modules pallets
+  - predefined node templates
+    - pallet_balances
+    - pallet_transaction_payment
+    - pallet_sudo
+
+## Learn
 
 
 ## Need to Learn Later
