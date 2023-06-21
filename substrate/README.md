@@ -88,7 +88,6 @@ cargo run --release -- --dev
 
 ## Explore the Node
 
-
 Node Template includes
 - peer-to-peer networking
 - simple consensus
@@ -100,9 +99,13 @@ Node Template includes
     - pallet_transaction_payment
     - pallet_sudo
 
+
 ## Learn
+
+- [Learn Substrate](./learn.md)
 
 
 ## Need to Learn Later
 
-- Palkadot: Shared security provider
+- What is Palkadot: Shared security provider
+- libp2p and jsonRPC protocols
